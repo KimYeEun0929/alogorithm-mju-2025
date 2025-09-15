@@ -16,7 +16,7 @@
 
 # 3) 의사코드(5~15줄): 핵심만
 
-![counting-sort](image.png)
+![counting-sort](image-counting_sort.png)
 
 ```
 Counting-Sort(A, n, k):
@@ -40,7 +40,7 @@ Counting-Sort(A, n, k):
 
 - C의 누적합은 “키 ≤ t”의 개수 → 키 t가 차지해야 할 끝 인덱스(또는 시작 인덱스)를 준다.
 - 뒤에서 앞으로 배치하면 동일 키 간 상대 순서가 보존(안정성).
-  ![stable vs. unstable](image.png)
+  ![stable vs. unstable](image-stable_unstable.png)
 
 - 모든 원소가 정확히 한 번 배치되므로 정렬 완료.
 

@@ -15,7 +15,7 @@
 
 # 3) 의사코드(5~15줄): 핵심만
 
-![quick-sort](image.png)
+![quick-sort](image-quick_sort.png)
 
 ```
 Quick-Sort(A, p, r):

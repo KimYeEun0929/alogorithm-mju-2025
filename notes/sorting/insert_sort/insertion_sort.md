@@ -15,6 +15,8 @@
 
 # 3) 의사코드(5~15줄): 핵심만
 
+![insertion sort](image-insertion_sort.png)
+
 ```
 Insertion-Sort(A, n):
     for i=2 to n:

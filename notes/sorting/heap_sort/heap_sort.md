@@ -17,7 +17,7 @@
 
 # 3) 의사코드(5~15줄): 핵심만
 
-![heap-sort](image.png)
+![heap-sort](image-heap_sort.png)
 
 ```
 Heap-Sort(A, n):

@@ -16,7 +16,7 @@
 
 # 3) 의사코드(5~15줄): 핵심만
 
-![buckt sort](image.png)
+![buckt sort](image-bucket_sort.png)
 
 실수 [0,1) 범위
 

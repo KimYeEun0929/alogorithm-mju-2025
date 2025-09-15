@@ -18,7 +18,7 @@
 
 # 3) 의사코드(5~15줄): 핵심만
 
-![radix-sort](image.png)
+![radix-sort](image-radix_sort.png)
 
 ```
 Radix-Sort(A, n, d):

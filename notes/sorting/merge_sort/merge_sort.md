@@ -50,10 +50,10 @@ Merge(A, p, q, r):  // A[p..q], A[q+1..r] 는 이미 정렬
 # 5) 복잡도: T(n) 점화식 → 해, 공간복잡도
 
 - 점화식: $T(n) = 2T(n/2) + O(n) -> T(n) = O(nlogn)$ (최선/평균/최악 동일)
-  ![running time](image-2.png)
+  ![running time](image-merge_sort_running_time.png)
 
 - 추가 공간: O(n) (보조 배열)
-  ![merge-sort](image-1.png)
+  ![merge-sort](image-merge_sort.png)
 
 # 6) 함정/엣지케이스: 3가지
 
