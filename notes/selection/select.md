@@ -14,7 +14,7 @@
 
 ### 3) 의사코드(5~15줄): 핵심만
 
-![select k번째 element](./images/image-slect_kth.png)
+![select k번째 element](./images/image-select_kth.png)
 
 ```
 RANDOMIZED-SELECT(A, p, r, i):
