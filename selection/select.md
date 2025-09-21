@@ -48,19 +48,19 @@ RANDOMIZED-SELECT(A, p, r, i):
     - j < k -> n-j
     - j > k -> j-1
   - 기대 남는 원소 수:
-    $E[remain] = {n\over 1}(sum _{j=1}^{k-1}(n-j)+0+sum _{j=k+1}^{n}(j-1))$
+    $E[remain] = {1\over n}(\sum _{j=1}^{k-1}(n-j) + 0 + \sum _{j=k+1}^{n}(j-1))$
   - 기대 pruning 수:
     $E[pruned] = n - E[remain]$
 
 - 특수 케이스 기대값:
 
-  - k=1 (최솟값): 평균 남음 = $2\over n$
-  - k=n (최댓값): 평균 남음 = $2\over n$
-  - k=$2\over n$ (중앙값): 평균 남음 = $4\over 3n$
+  - k=1 (최솟값): 평균 남음 = $n\over 2$
+  - k=n (최댓값): 평균 남음 = $n\over 2$
+  - k=$n\over 2$ (중앙값): 평균 남음 = $3n\over 4$
 
 - 점화식:
 
-  - 평균적으로 T(n) = T($4\over 3n$) + Θ(n) = T($4\over 3n$) + n = 4n
+  - 평균적으로 T(n) = T($3n\over 4$) + Θ(n) = T($3n\over 4$) + n = 4n
   - 해: 기대 Θ(n), 실제 약 4n
 
 - Worst Case: Θ(n²) (매번 최악의 피벗 선택 시)
