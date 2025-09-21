@@ -48,7 +48,7 @@ RANDOMIZED-SELECT(A, p, r, i):
     - j < k -> n-j
     - j > k -> j-1
   - 기대 남는 원소 수:
-    $E[remain] = {n\over 1}(sum _{j=1} ^{k-1} (n-j)`+`0`+` sum _{j=k+1} ^{n} (j-1))$
+    $E[remain] = {n\over 1}(sum _{j=1}^{k-1}(n-j)+0+sum _{j=k+1}^{n}(j-1))$
   - 기대 pruning 수:
     $E[pruned] = n - E[remain]$
 
